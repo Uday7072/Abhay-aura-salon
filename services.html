@@ -1,0 +1,420 @@
+<think>
+The user is asking what to write in the services.html file. They want to know what content should be in the services page for their Abhay Aura Salon website.
+
+I should provide them with a complete, professional services page HTML code that matches the premium design of the main page. This will include:
+
+1. A header (same as main page)
+2. A hero section for services
+3. Detailed service cards with descriptions, pricing, etc.
+4. A footer (same as main page)
+
+I'll create a comprehensive services page in Hindi/English mix (as they've been communicating) with all the details they need.
+
+</think>Namaste bhai! 🙏
+
+Badiya sawaal! Main aapke liye ek **complete services page** bana deta hoon. Ise `services.html` naam se save karein.
+
+---
+
+## **Complete Services Page Code**
+
+```html
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Abhay Aura Salon</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ==================== TOP BAR ==================== -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-bar-left">
+                    <span><i class="fas fa-phone"></i> +91 98765 43210</span>
+                    <span><i class="fas fa-envelope"></i> info@abhayaurasalon.com</span>
+                </div>
+                <div class="top-bar-right">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <span class="logo-text">Abhay</span>
+                        <span class="logo-sub">Aura Salon</span>
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link active">Services</a></li>
+                    <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="contact.html" class="btn-appointment">Book Appointment</a>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ==================== PAGE HERO ==================== -->
+    <section class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="page-hero-content">
+            <h1>Our Services</h1>
+            <p>Premium Beauty Treatments for You</p>
+        </div>
+    </section>
+
+    <!-- ==================== BREADCRUMB ==================== -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Services</span>
+        </div>
+    </div>
+
+    <!-- ==================== SERVICES DETAILS ==================== -->
+    <section class="services-detail section-padding">
+        <div class="container">
+            
+            <!-- Hair Services -->
+            <div class="service-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Hair Services</h2>
+                        <p>Professional hair care and styling</p>
+                    </div>
+                </div>
+                
+                <div class="service-list">
+                    <!-- Hair Item 1 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Haircut & Styling</h3>
+                            <span class="service-price">₹500 - ₹1500</span>
+                        </div>
+                        <p class="service-item-desc">Professional haircut according to your face shape and styling as per latest trends.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 45-60 minutes
+                        </div>
+                    </div>
+
+                    <!-- Hair Item 2 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Hair Coloring</h3>
+                            <span class="service-price">₹1500 - ₹5000</span>
+                        </div>
+                        <p class="service-item-desc">Full head color, highlights, balayage, ombre, and creative coloring using premium international brands.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 2-4 hours
+                        </div>
+                    </div>
+
+                    <!-- Hair Item 3 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Hair Treatment</h3>
+                            <span class="service-price">₹2000 - ₹8000</span>
+                        </div>
+                        <p class="service-item-desc">Keratin treatment, smoothening, straightening, and spa treatments for damaged hair.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 2-5 hours
+                        </div>
+                    </div>
+
+                    <!-- Hair Item 4 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Bridal Hairstyle</h3>
+                            <span class="service-price">₹3000 - ₹10000</span>
+                        </div>
+                        <p class="service-item-desc">Beautiful bridal hairstyles including traditional, modern, and fusion looks for your special day.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 1-2 hours
+                        </div>
+                    </div>
+
+                    <!-- Hair Item 5 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Hair Spa</h3>
+                            <span class="service-price">₹800 - ₹1500</span>
+                        </div>
+                        <p class="service-item-desc">Rejuvenating hair spa with massage and deep conditioning treatments.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 45-60 minutes
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skin & Facial Services -->
+            <div class="service-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Skin & Facial Care</h2>
+                        <p>Glowing and healthy skin treatments</p>
+                    </div>
+                </div>
+                
+                <div class="service-list">
+                    <!-- Skin Item 1 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Basic Facial</h3>
+                            <span class="service-price">₹800 - ₹1500</span>
+                        </div>
+                        <p class="service-item-desc">Cleansing, exfoliation, massage, and moisturizing for fresh and glowing skin.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 45-60 minutes
+                        </div>
+                    </div>
+
+                    <!-- Skin Item 2 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Premium Facial</h3>
+                            <span class="service-price">₹2000 - ₹3500</span>
+                        </div>
+                        <p class="service-item-desc">Advanced facial with gold/collagen/vitamin C for anti-aging and brightening.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 60-90 minutes
+                        </div>
+                    </div>
+
+                    <!-- Skin Item 3 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Chemical Peel</h3>
+                            <span class="service-price">₹2500 - ₹5000</span>
+                        </div>
+                        <p class="service-item-desc">Skin resurfacing treatment for acne scars, pigmentation, and fine lines.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 45-60 minutes
+                        </div>
+                    </div>
+
+                    <!-- Skin Item 4 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Microdermabrasion</h3>
+                            <span class="service-price">₹3000 - ₹6000</span>
+                        </div>
+                        <p class="service-item-desc">Non-invasive treatment to improve skin texture and appearance.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 45-60 minutes
+                        </div>
+                    </div>
+
+                    <!-- Skin Item 5 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Body Spa & Scrub</h3>
+                            <span class="service-price">₹1500 - ₹4000</span>
+                        </div>
+                        <p class="service-item-desc">Relaxing body massage, scrub, and wrap treatments for complete rejuvenation.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 60-120 minutes
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bridal Services -->
+            <div class="service-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Bridal Package</h2>
+                        <p>Complete bridal makeover services</p>
+                    </div>
+                </div>
+                
+                <div class="service-list">
+                    <!-- Bridal Item 1 -->
+                    <div class="service-item featured">
+                        <div class="featured-badge">Most Popular</div>
+                        <div class="service-item-header">
+                            <h3>Bridal Basic Package</h3>
+                            <span class="service-price">₹15,000 - ₹25,000</span>
+                        </div>
+                        <p class="service-item-desc">Complete bridal makeover including hair styling, makeup, facial, and basic mehendi.</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Bridal Hairstyle</span>
+                            <span><i class="fas fa-check"></i> Bridal Makeup</span>
+                            <span><i class="fas fa-check"></i> Facial Treatment</span>
+                            <span><i class="fas fa-check"></i> Basic Mehendi</span>
+                            <span><i class="fas fa-check"></i> Saree Draping</span>
+                        </div>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 4-6 hours
+                        </div>
+                    </div>
+
+                    <!-- Bridal Item 2 -->
+                    <div class="service-item featured">
+                        <div class="featured-badge">Premium</div>
+                        <div class="service-item-header">
+                            <h3>Bridal Premium Package</h3>
+                            <span class="service-price">₹30,000 - ₹50,000</span>
+                        </div>
+                        <p class="service-item-desc">Luxury bridal package with all premium services for your dream wedding.</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Bridal Hairstyle (Trial)</span>
+                            <span><i class="fas fa-check"></i> Bridal Makeup (Trial)</span>
+                            <span><i class="fas fa-check"></i> Premium Facial</span>
+                            <span><i class="fas fa-check"></i> Full Hand & Feet Mehendi</span>
+                            <span><i class="fas fa-check"></i> Saree/Lehenga Draping</span>
+                            <span><i class="fas fa-check"></i> Eye Makeup</span>
+                            <span><i class="fas fa-check"></i> Pre-bridal Package</span>
+                        </div>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 6-8 hours
+                        </div>
+                    </div>
+
+                    <!-- Bridal Item 3 -->
+                    <div class="service-item featured">
+                        <div class="featured-badge">Luxury</div>
+                        <div class="service-item-header">
+                            <h3>Bridal Luxury Package</h3>
+                            <span class="service-price">₹50,000 - ₹1,00,000</span>
+                        </div>
+                        <p class="service-item-desc">Ultimate luxury experience with personal stylist and all premium services.</p>
+                        <div class="service-features">
+                            <span><i class="fas fa-check"></i> Personal Stylist</span>
+                            <span><i class="fas fa-check"></i> Multiple Hairstyle Trials</span>
+                            <span><i class="fas fa-check"></i> Premium Makeup (International Brands)</span>
+                            <span><i class="fas fa-check"></i> Full Body Spa</span>
+                            <span><i class="fas fa-check"></i> Bridal Mehendi (Custom Design)</span>
+                            <span><i class="fas fa-check"></i> Complete Draping Service</span>
+                            <span><i class="fas fa-check"></i> Touch-up Kit</span>
+                            <span><i class="fas fa-check"></i> Attendant Service</span>
+                        </div>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> Full Day Service
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Makeup Services -->
+            <div class="service-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Makeup Services</h2>
+                        <p>Professional makeup for all occasions</p>
+                    </div>
+                </div>
+                
+                <div class="service-list">
+                    <!-- Makeup Item 1 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Party Makeup</h3>
+                            <span class="service-price">₹2000 - ₹5000</span>
+                        </div>
+                        <p class="service-item-desc">Beautiful makeup for parties, receptions, and celebrations.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 45-60 minutes
+                        </div>
+                    </div>
+
+                    <!-- Makeup Item 2 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Engagement Makeup</h3>
+                            <span class="service-price">₹5000 - ₹10000</span>
+                        </div>
+                        <p class="service-item-desc">Glamorous makeup for engagement ceremony with premium products.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 60-90 minutes
+                        </div>
+                    </div>
+
+                    <!-- Makeup Item 3 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>HD Makeup</h3>
+                            <span class="service-price">₹8000 - ₹15000</span>
+                        </div>
+                        <p class="service-item-desc">High-definition makeup using premium international brands for photoshoots and events.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 60-90 minutes
+                        </div>
+                    </div>
+
+                    <!-- Makeup Item 4 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Airbrush Makeup</h3>
+                            <span class="service-price">₹10000 - ₹20000</span>
+                        </div>
+                        <p class="service-item-desc">Long-lasting airbrush makeup for weddings and special occasions.</p>
+                        <div class="service-duration">
+                            <i class="far fa-clock"></i> 60-90 minutes
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Services -->
+            <div class="service-category">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="category-title">
+                        <h2>Other Services</h2>
+                        <p>Complete beauty solutions</p>
+                    </div>
+                </div>
+                
+                <div class="service-list">
+                    <!-- Other Item 1 -->
+                    <div class="service-item">
+                        <div class="service-item-header">
+                            <h3>Mehendi</h3
